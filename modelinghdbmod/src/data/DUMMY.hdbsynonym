@@ -1,0 +1,9 @@
+{
+  "modelingproject.modelinghdbmod.data::DUMMY": {
+    "target": {
+      "object": "DUMMY",
+      "schema": "SYS",
+      "database": "DB0"
+    }
+  }
+}

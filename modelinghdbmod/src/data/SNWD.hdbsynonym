@@ -1,0 +1,44 @@
+{
+  "modelingproject.modelinghdbmod.data::SNWD_AD": {
+    "target": {
+      "object": "SNWD_AD",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_BPA": {
+    "target": {
+      "object": "SNWD_BPA",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_PD": {
+    "target": {
+      "object": "SNWD_PD",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_PD_CATGOS": {
+    "target": {
+      "object": "SNWD_PD_CATGOS",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_SO": {
+    "target": {
+      "object": "SNWD_SO",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_SO_I": {
+    "target": {
+      "object": "SNWD_SO_I",
+      "schema": "EPM_DEV"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::SNWD_SO_SL": {
+    "target": {
+      "object": "SNWD_SO_SL",
+      "schema": "EPM_DEV"
+    }
+  }
+}

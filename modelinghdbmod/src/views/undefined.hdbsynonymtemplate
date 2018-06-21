@@ -1,0 +1,7 @@
+{
+  "modelingproject.modelinghdbmod.views::TBL_FIROM_FRAMEB": {
+    "target": {
+      "object": "TBL_FIROM_FRAMEB"
+    }
+  }
+}

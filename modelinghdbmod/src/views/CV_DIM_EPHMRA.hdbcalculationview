@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="modelingproject.modelinghdbmod.views::CV_DIM_EPHMRA" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="EPhMRA product omschrijvingen"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="TBL_FIROM_ATCEPHNL">
+    <resourceUri>TBL_FIROM_ATCEPHNL</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="TBL_FIROM_ATCEPHNL">
+  <attributes>
+    <attribute id="CODE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Code"/>
+      <keyMapping columnObjectName="TBL_FIROM_ATCEPHNL" columnName="CODE"/>
+    </attribute>
+    <attribute id="OMSCHRIJVING_01" hidden="true" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OMSCHRIJVING_01"/>
+      <keyMapping columnObjectName="TBL_FIROM_ATCEPHNL" columnName="OMSCHRIJVING_01"/>
+    </attribute>
+    <attribute id="OMSCHRIJVING_02" hidden="true" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OMSCHRIJVING_02"/>
+      <keyMapping columnObjectName="TBL_FIROM_ATCEPHNL" columnName="OMSCHRIJVING_02"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes>
+    <calculatedAttribute id="OMSCHRIJVING" order="2" semanticType="empty" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Omschrijving EPhMRA"/>
+      <keyCalculation datatype="NVARCHAR" expressionLanguage="SQL" length="160">
+        <formula>&quot;OMSCHRIJVING_01&quot; || &quot;OMSCHRIJVING_02&quot;</formula>
+      </keyCalculation>
+      </calculatedAttribute>
+  </calculatedAttributes>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

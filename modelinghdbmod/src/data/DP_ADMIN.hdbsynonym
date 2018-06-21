@@ -1,0 +1,79 @@
+{
+  "modelingproject.modelinghdbmod.data::DPA_FRAMEA": {
+    "target": {
+      "object": "DPA_FRAMEA",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_EGM_International_Orders": {
+    "target": {
+      "object": "DPA_EGM_International_Orders",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_FRAMEB": {
+    "target": {
+      "object": "DPA_FRAMEB",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_FRAMEC": {
+    "target": {
+      "object": "DPA_FRAMEC",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_GEBIEDEN": {
+    "target": {
+      "object": "DPA_GEBIEDEN",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_PCTABEL": {
+    "target": {
+      "object": "DPA_PCTABEL",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_FRAMED": {
+    "target": {
+      "object": "DPA_FRAMED",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_FRAMEE": {
+    "target": {
+      "object": "DPA_FRAMEE",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_ATCEPHNL": {
+    "target": {
+      "object": "DPA_ATCEPHNL",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_ATCWHONL": {
+    "target": {
+      "object": "DPA_ATCWHONL",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  },
+  "modelingproject.modelinghdbmod.data::DPA_FRAMEF": {
+    "target": {
+      "object": "DPA_FRAMEF",
+      "schema": "DP_ADMIN",
+      "database": "DB0"
+    }
+  }
+}

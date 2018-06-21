@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="modelingproject.modelinghdbmod.views::CV_DIM_PRICE" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false">
+<descriptions defaultDescription="CV_DIM_PRICE"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="TBL_FIROM_FRAMEB">
+    <resourceUri>TBL_FIROM_FRAMEB</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews/>
+<logicalModel id="TBL_FIROM_FRAMEB">
+  <attributes>
+    <attribute id="FARMINFORM_CODE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FARMINFORM_CODE"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="FARMINFORM_CODE"/>
+    </attribute>
+    <attribute id="PRIJS_CODE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="PRIJS_CODE"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="PRIJS_CODE"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_01_EC" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 01 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_01"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_02_EC" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 02 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_02"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_03_EC" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 03 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_03"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_04_EC" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 04 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_04"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_05_EC" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 05 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_05"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_06_EC" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 06 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_06"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_07_EC" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 07 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_07"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_08_EC" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 08 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_08"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_09_EC" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 09 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_09"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_10_EC" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 10 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_10"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_11_EC" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 11 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_11"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_12_EC" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 12 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_12"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_13_EC" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 13 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_13"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_14_EC" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 14 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_14"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_15_EC" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 15 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_15"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_16_EC" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 16 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_16"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_17_EC" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 17 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_17"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_18_EC" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 18 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_18"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_19_EC" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 19 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_19"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_20_EC" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 20 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_20"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_21_EC" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 21 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_21"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_22_EC" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 22 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_22"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_23_EC" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 23 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_23"/>
+    </attribute>
+    <attribute id="PRIJS_MAAND_24_EC" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Prijs Maand 24 in Eurocent"/>
+      <keyMapping columnObjectName="TBL_FIROM_FRAMEB" columnName="GEGEVEN_MAAND_24"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="40" y="85"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>

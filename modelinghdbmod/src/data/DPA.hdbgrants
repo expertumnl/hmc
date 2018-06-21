@@ -1,0 +1,14 @@
+{
+	"DP_ADMIN-table-grantor": {
+		"object_owner": { 
+			"roles": [
+				"DP_ADMIN::external_access_g"
+			]
+		},
+		"application_user": {
+			"roles": [
+				"DP_ADMIN::external_access"
+			]
+		}
+	}
+}

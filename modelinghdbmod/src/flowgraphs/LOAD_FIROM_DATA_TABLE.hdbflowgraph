@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<flowgraph:ContainerNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:flowgraph="http://www.sap.com/ndb/flowgraph/1.0" xmi:id="3da4b630c5c37d784825ccfdde95bf65" name="LOAD_FIROM_DATA_TABLE" runtimeBehavior="BATCH_TASK">
+  <annotations key="sap.afm.layout" xmi:id="d690702845ce003605cd97c2a7ab92e7">
+    <annotations xmi:id="6fdee4b3933081da51bd3357a285a093" key="x" value="10">
+    </annotations>
+    <annotations xmi:id="5df3541c701be9c556c93619dc024fbe" key="y" value="10">
+    </annotations>
+    <annotations xmi:id="164223e2140e735e3ae6357001cff9ad" key="width" value="100">
+    </annotations>
+    <annotations xmi:id="05a823daf352e7f704e192d524f06de0" key="height" value="84">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="ed7c74b9072a40d5f9ec08496b724ac1" key="sap.afm.palette">
+    <annotations xmi:id="7b61774d48983ca1e6e80b57055e4188" key="additions" value="">
+    </annotations>
+  </annotations>
+  <annotations xmi:id="419da27b8236ffe591053c547882d7dc" key="sap.afm.nodeType" value="ContainerNode">
+  </annotations>
+  <annotations xmi:id="8d06aacb230d5bf7b9ca2271304334c1" key="sap.afm.nodeInputs">
+  </annotations>
+  <annotations xmi:id="25ba889f402da6718d5c9fb29ee2a218" key="sap.afm.nodeOutputs">
+  </annotations>
+  <tableMappings xmi:id="8959609809f6698e0689f5750e0bfb3a" source="681e150cf68ca54d86563764cdd2a1ae" target="39c12dfbe4be69930418b54a9a65c47b">
+    <attributeMappings xmi:id="e2a92b542437d2629a276b799b6ab3ca" source="63292ee9e702b23c90dd5571a3976761" target="c6d0f459da75a6e5be29e364dface565">
+    </attributeMappings>
+  </tableMappings>
+  <tableMappings xmi:id="457cdde27985ab8f8eb45edffafc26f3" source="0ab46cd9658f1a0bbfa6ef52856a409f" target="69f73a84388deffcb98b9c73ebcc51ab">
+    <attributeMappings xmi:id="d2cc794597b8dac98ec7256ae11c78a0" source="4de0b0e53279aba19342c5211d95de70" target="11a0162ca30b78bda505ca2b661e54de">
+    </attributeMappings>
+    <attributeMappings xmi:id="1f214bccef55582f62064f1d86c0bf5a" source="ca3976387abb1102e4fea74eb7f79166" target="7fce62d6b0c90fd837903a2ae9a41c17">
+    </attributeMappings>
+    <attributeMappings xmi:id="75daaa85d20a6d319e202f79c430456f" source="025ae13262eefb01680c4790682459ee" target="3effc93517e0a0ab5a5791c1e93d014c">
+    </attributeMappings>
+    <attributeMappings xmi:id="11c54ac4ce33ed6f4a7d81d46c5d8350" source="e5606ddd9daaaa29665102edf21be9a4" target="c16ffa8314e0855740f856d920a366c2">
+    </attributeMappings>
+    <attributeMappings xmi:id="7f7a62d5dbdc790ee02b2e021598c2fa" source="c4acc16e5c70526108268d07c5917c56" target="1793967f55756532aad45ee9f083eb98">
+    </attributeMappings>
+    <attributeMappings xmi:id="7eb172b0225405b755c01e08b4348547" source="ebcc74594e4d1ca935b454f84a41c94f" target="a4861ac4965317f3e84edd2ad56a76a8">
+    </attributeMappings>
+    <attributeMappings xmi:id="464e30a67a600961f9129e6928f98a4d" source="debcc0a77902439c5222289e8b131187" target="e295494764b18726581b630c80ecd71d">
+    </attributeMappings>
+    <attributeMappings xmi:id="c25d714e107ed1470ff1b9774fca365d" source="97c9acae42dcf696213497b99bade9fc" target="ab028e65a168d93d91cd06e56936d385">
+    </attributeMappings>
+    <attributeMappings xmi:id="0e77430aeda7b31b5a2536f8813a2bf3" source="887d0cb6c643a24fb2028cde2c98f44b" target="3cbcadde80646558c2717985ddc6c5bd">
+    </attributeMappings>
+    <attributeMappings xmi:id="63477e30ed455fcebbd5f0f62a472d49" source="ec31527d8689943d591848165b0451c9" target="a818b2c2df1ceb90d56e46261ecacc81">
+    </attributeMappings>
+  </tableMappings>
+  <nodes xmi:id="458024a23c178619ff061914c18b8d4d" xsi:type="flowgraph:DateGenerationNode" name="DateGen" startDate="2015.01.01" endDate="2020.12.31" increment="MONTHLY">
+    <annotations key="sap.afm.layout" xmi:id="8529e9f0141c3489e858abef45e42a99">
+      <annotations xmi:id="1ee6c25188d062f5dae0e0a29526ae55" key="x" value="135">
+      </annotations>
+      <annotations xmi:id="53407f183f0bc692a3a9eb38fd9bf923" key="y" value="136">
+      </annotations>
+      <annotations xmi:id="22a22514a345f10d5a2a5ef6ed10a677" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="06b103c120aba4efb4b16c18c65ea846" key="height" value="115">
+      </annotations>
+    </annotations>
+    <outputs xmi:id="681e150cf68ca54d86563764cdd2a1ae" name="DateGen_OUT">
+      <attributes xmi:id="63292ee9e702b23c90dd5571a3976761" name="GENERATED_TIMESTAMP" type="DATE" nullable="false">
+      </attributes>
+    </outputs>
+  </nodes>
+  <nodes xmi:id="5e6e26348045bd6f2f52744e46069847" xsi:type="flowgraph:FilterNode" name="Projection">
+    <annotations key="sap.afm.layout" xmi:id="23f2055251e3e1e564900a321e708924">
+      <annotations xmi:id="2e62ff7e42ee9adb583965aa998bfafd" key="x" value="359">
+      </annotations>
+      <annotations xmi:id="d73af5503e2276e96af21eb5b5f064d5" key="y" value="136">
+      </annotations>
+      <annotations xmi:id="2b78d7a36405daa25f6381925f0c70bf" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="9e1ccc0c215747984fe192667497c215" key="height" value="115">
+      </annotations>
+    </annotations>
+    <inputs xmi:id="39c12dfbe4be69930418b54a9a65c47b" name="Projection_IN">
+      <attributes xmi:id="c6d0f459da75a6e5be29e364dface565" name="GENERATED_TIMESTAMP" type="DATE" nullable="false">
+      </attributes>
+    </inputs>
+    <outputs xmi:id="0ab46cd9658f1a0bbfa6ef52856a409f" name="Projection_OUT">
+      <attributes xmi:id="ca3976387abb1102e4fea74eb7f79166" name="YYYYMM_INT" type="INTEGER" nullable="false" expression="TO_INTEGER(TO_NVARCHAR(&quot;GENERATED_TIMESTAMP&quot;, &#x27;YYYYMM&#x27;))">
+      </attributes>
+      <attributes xmi:id="025ae13262eefb01680c4790682459ee" name="YEAR_INT" type="INTEGER" nullable="true" expression="TO_INTEGER(YEAR(&quot;GENERATED_TIMESTAMP&quot;))">
+      </attributes>
+      <attributes xmi:id="97c9acae42dcf696213497b99bade9fc" name="QUARTER_INT" type="INTEGER" nullable="true" expression="TO_INTEGER(SUBSTRING(QUARTER(&quot;GENERATED_TIMESTAMP&quot;), 7, 1))">
+      </attributes>
+      <attributes xmi:id="e5606ddd9daaaa29665102edf21be9a4" name="MONTH_INT" type="INTEGER" nullable="true" expression="TO_INTEGER(MONTH(&quot;GENERATED_TIMESTAMP&quot;))">
+      </attributes>
+      <attributes xmi:id="4de0b0e53279aba19342c5211d95de70" name="FIRST_DAY_OF_MONTH" type="DATE" nullable="false" expression="&quot;GENERATED_TIMESTAMP&quot;">
+      </attributes>
+      <attributes xmi:id="887d0cb6c643a24fb2028cde2c98f44b" name="LAST_DAY_OF_MONTH" type="DATE" nullable="true" expression="LAST_DAY(&quot;GENERATED_TIMESTAMP&quot;)">
+      </attributes>
+      <attributes xmi:id="ebcc74594e4d1ca935b454f84a41c94f" name="YEAR_STR" type="NVARCHAR" nullable="true" length="10" expression="TO_NVARCHAR(&quot;GENERATED_TIMESTAMP&quot;, &#x27;YYYY&#x27;)">
+      </attributes>
+      <attributes xmi:id="c4acc16e5c70526108268d07c5917c56" name="QUARTER_STR" type="NVARCHAR" nullable="true" expression="QUARTER(&quot;GENERATED_TIMESTAMP&quot;)" length="10">
+      </attributes>
+      <attributes xmi:id="debcc0a77902439c5222289e8b131187" name="MONTH_STR" type="NVARCHAR" nullable="true" length="10" expression="TO_NVARCHAR(&quot;GENERATED_TIMESTAMP&quot;, &#x27;MM&#x27;)">
+      </attributes>
+      <attributes xmi:id="ec31527d8689943d591848165b0451c9" name="MONTH_NAME" type="NVARCHAR" nullable="true" length="20" expression="INITCAP(MONTHNAME(&quot;GENERATED_TIMESTAMP&quot;))">
+      </attributes>
+    </outputs>
+  </nodes>
+  <nodes xmi:id="810761c1f0f69561c79f9eb32f67edbf" xsi:type="flowgraph:DataNode" name="DataTarget" truncateTable="false" catalogObjectName="TBL_FIROM_DATE" type="TEMPLATE_TABLE">
+    <annotations key="sap.afm.layout" xmi:id="83e1818b538d936025c233986cf4b784">
+      <annotations xmi:id="2b97045ec4c5e1d23899cb072ac7b2ba" key="x" value="575">
+      </annotations>
+      <annotations xmi:id="23c8087b777756b025dc566f7a7cec1e" key="y" value="136">
+      </annotations>
+      <annotations xmi:id="4a77a8bee5ecea1775c6f74679672281" key="width" value="120">
+      </annotations>
+      <annotations xmi:id="a8d494883ed15bc50d490b19041c644a" key="height" value="115">
+      </annotations>
+    </annotations>
+    <annotations xmi:id="1f504a291fe77643274bb573f06f4b39" key="sap.afm.description">
+    </annotations>
+    <annotations xmi:id="d2bc15b2d1a6c4ef46828699536af7fa" key="sap.afm.nodeType" value="DataNode">
+    </annotations>
+    <annotations xmi:id="face26546de4832b16cc8376525777d0" key="sap.afm.nodeInputs">
+    </annotations>
+    <annotations xmi:id="9b630a39d1d0d022f3fc985922ebe9c2" key="sap.afm.nodeOutputs">
+    </annotations>
+    <annotations xmi:id="2074b2ea5261f90f37ea65435b876a81" key="sap.afm.displayName" value="Data Target">
+    </annotations>
+    <inputs xmi:id="69f73a84388deffcb98b9c73ebcc51ab" name="DataTarget" kind="TABLE">
+      <attributes xmi:id="7fce62d6b0c90fd837903a2ae9a41c17" name="YYYYMM_INT" type="INTEGER" nullable="false">
+      </attributes>
+      <attributes xmi:id="3effc93517e0a0ab5a5791c1e93d014c" name="YEAR_INT" type="INTEGER" nullable="true">
+      </attributes>
+      <attributes xmi:id="ab028e65a168d93d91cd06e56936d385" name="QUARTER_INT" type="INTEGER" nullable="true">
+      </attributes>
+      <attributes xmi:id="c16ffa8314e0855740f856d920a366c2" name="MONTH_INT" type="INTEGER" nullable="true">
+      </attributes>
+      <attributes xmi:id="11a0162ca30b78bda505ca2b661e54de" name="FIRST_DAY_OF_MONTH" type="DATE" nullable="false">
+      </attributes>
+      <attributes xmi:id="3cbcadde80646558c2717985ddc6c5bd" name="LAST_DAY_OF_MONTH" type="DATE" nullable="true">
+      </attributes>
+      <attributes xmi:id="a4861ac4965317f3e84edd2ad56a76a8" name="YEAR_STR" type="NVARCHAR" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="1793967f55756532aad45ee9f083eb98" name="QUARTER_STR" type="NVARCHAR" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="e295494764b18726581b630c80ecd71d" name="MONTH_STR" type="NVARCHAR" nullable="true" length="10">
+      </attributes>
+      <attributes xmi:id="a818b2c2df1ceb90d56e46261ecacc81" name="MONTH_NAME" type="NVARCHAR" nullable="true" length="20">
+      </attributes>
+    </inputs>
+  </nodes>
+</flowgraph:ContainerNode>

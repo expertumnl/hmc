@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Calculation:scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Calculation="http://www.sap.com/ndb/BiModelCalculation.ecore" id="modelingproject.modelinghdbmod.views::CV_DIM_PRODUCT" applyPrivilegeType="NONE" dataCategory="DIMENSION" dimensionType="STANDARD" schemaVersion="3.0" outputViewType="Projection" cacheInvalidationPeriod="NONE" enforceSqlExecution="false" runWithInvokerPrivileges="true">
+<descriptions defaultDescription="Product Dimension"/>
+<localVariables/>
+<variableMappings/>
+<dataSources>
+  <DataSource id="TBL_FIROM_FRAMEA">
+    <resourceUri>TBL_FIROM_FRAMEA</resourceUri>
+  </DataSource>
+  <DataSource id="modelingproject.modelinghdbmod.views::CV_DIM_WHO">
+    <resourceUri>modelingproject.modelinghdbmod.views::CV_DIM_WHO</resourceUri>
+  </DataSource>
+  <DataSource id="modelingproject.modelinghdbmod.views::CV_DIM_EPHMRA">
+    <resourceUri>modelingproject.modelinghdbmod.views::CV_DIM_EPHMRA</resourceUri>
+  </DataSource>
+</dataSources>
+<calculationViews>
+  <calculationView xsi:type="Calculation:ProjectionView" id="FRAME_A">
+    <viewAttributes>
+      <viewAttribute id="FARMINFORM_CODE">
+        <descriptions defaultDescription="FARMINFORM_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="VERSIE_CODE">
+        <descriptions defaultDescription="VERSIE_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="NAAM">
+        <descriptions defaultDescription="NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="SUBNAAM">
+        <descriptions defaultDescription="SUBNAAM"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING">
+        <descriptions defaultDescription="OMSCHRIJVING"/>
+      </viewAttribute>
+      <viewAttribute id="MINIKAART_CODE">
+        <descriptions defaultDescription="MINIKAART_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="INTRODUCTIEDATUM">
+        <descriptions defaultDescription="INTRODUCTIEDATUM"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_EPHMRA">
+        <descriptions defaultDescription="ATC_CODE_EPHMRA"/>
+      </viewAttribute>
+      <viewAttribute id="FOTC_CODE">
+        <descriptions defaultDescription="FOTC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EAN_CODE">
+        <descriptions defaultDescription="EAN_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EHIBC_CODE">
+        <descriptions defaultDescription="EHIBC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="KNMP_ARTIKELNUMMER">
+        <descriptions defaultDescription="KNMP_ARTIKELNUMMER"/>
+      </viewAttribute>
+      <viewAttribute id="GENERIEKE_NAAM">
+        <descriptions defaultDescription="GENERIEKE_NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="TOEDIENINGSVORM">
+        <descriptions defaultDescription="TOEDIENINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_HOEVEELHEID">
+        <descriptions defaultDescription="STERKTE_HOEVEELHEID"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_EENHEID">
+        <descriptions defaultDescription="STERKTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSVORM">
+        <descriptions defaultDescription="VERPAKKINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_AANTAL">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_AANTAL"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_EENHEID">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="FARMINFORM_DEELNEMER">
+        <descriptions defaultDescription="FARMINFORM_DEELNEMER"/>
+      </viewAttribute>
+      <viewAttribute id="INKOOP_KANAAL">
+        <descriptions defaultDescription="INKOOP_KANAAL"/>
+      </viewAttribute>
+      <viewAttribute id="HERKOMSTLAND">
+        <descriptions defaultDescription="HERKOMSTLAND"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_WHO">
+        <descriptions defaultDescription="ATC_CODE_WHO"/>
+      </viewAttribute>
+      <viewAttribute id="AANTAL_DDD_PER_VERPAKKING">
+        <descriptions defaultDescription="AANTAL_DDD_PER_VERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="REGISTRATIE">
+        <descriptions defaultDescription="REGISTRATIE"/>
+      </viewAttribute>
+      <viewAttribute id="UR_NR">
+        <descriptions defaultDescription="UR_NR"/>
+      </viewAttribute>
+      <viewAttribute id="MARKTDEKKING">
+        <descriptions defaultDescription="MARKTDEKKING"/>
+      </viewAttribute>
+      <viewAttribute id="ROWNUMBER">
+        <descriptions defaultDescription="ROWNUMBER"/>
+      </viewAttribute>
+      <viewAttribute id="RESERVEVELD">
+        <descriptions defaultDescription="RESERVEVELD"/>
+      </viewAttribute>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="TBL_FIROM_FRAMEA">
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_CODE" source="FARMINFORM_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSIE_CODE" source="VERSIE_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAAM" source="NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBNAAM" source="SUBNAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING" source="OMSCHRIJVING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MINIKAART_CODE" source="MINIKAART_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INTRODUCTIEDATUM" source="INTRODUCTIEDATUM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_EPHMRA" source="ATC_CODE_EPHMRA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FOTC_CODE" source="FOTC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EAN_CODE" source="EAN_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EHIBC_CODE" source="EHIBC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNMP_ARTIKELNUMMER" source="KNMP_ARTIKELNUMMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GENERIEKE_NAAM" source="GENERIEKE_NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TOEDIENINGSVORM" source="TOEDIENINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_HOEVEELHEID" source="STERKTE_HOEVEELHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_EENHEID" source="STERKTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSVORM" source="VERPAKKINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_AANTAL" source="VERPAKKINGSGROOTTE_AANTAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_EENHEID" source="VERPAKKINGSGROOTTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HOEVEELHEID_PER_DEELVERPAKKING" source="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING" source="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_DEELNEMER" source="FARMINFORM_DEELNEMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INKOOP_KANAAL" source="INKOOP_KANAAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HERKOMSTLAND" source="HERKOMSTLAND"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_WHO" source="ATC_CODE_WHO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AANTAL_DDD_PER_VERPAKKING" source="AANTAL_DDD_PER_VERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REGISTRATIE" source="REGISTRATIE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="UR_NR" source="UR_NR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MARKTDEKKING" source="MARKTDEKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ROWNUMBER" source="ROWNUMBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RESERVEVELD" source="RESERVEVELD"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="WHO">
+    <viewAttributes>
+      <viewAttribute id="CODE">
+        <descriptions defaultDescription="CODE"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING">
+        <descriptions defaultDescription="Omschrijving WHO"/>
+      </viewAttribute>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="modelingproject.modelinghdbmod.views::CV_DIM_WHO">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CODE" source="CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING" source="OMSCHRIJVING"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:ProjectionView" id="EPhRMA">
+    <viewAttributes>
+      <viewAttribute id="CODE">
+        <descriptions defaultDescription="Code"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING">
+        <descriptions defaultDescription="Omschrijving EPhMRA"/>
+      </viewAttribute>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="modelingproject.modelinghdbmod.views::CV_DIM_EPHMRA">
+      <mapping xsi:type="Calculation:AttributeMapping" target="CODE" source="CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING" source="OMSCHRIJVING"/>
+    </input>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_1" cardinality="CN_N" joinType="inner" multiJoinNode="Join_1" multiJoinCentralTable="EPhRMA" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="FARMINFORM_CODE">
+        <descriptions defaultDescription="FARMINFORM_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="VERSIE_CODE">
+        <descriptions defaultDescription="VERSIE_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="NAAM">
+        <descriptions defaultDescription="NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="SUBNAAM">
+        <descriptions defaultDescription="SUBNAAM"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING">
+        <descriptions defaultDescription="OMSCHRIJVING"/>
+      </viewAttribute>
+      <viewAttribute id="MINIKAART_CODE">
+        <descriptions defaultDescription="MINIKAART_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="INTRODUCTIEDATUM">
+        <descriptions defaultDescription="INTRODUCTIEDATUM"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_EPHMRA">
+        <descriptions defaultDescription="ATC_CODE_EPHMRA"/>
+      </viewAttribute>
+      <viewAttribute id="FOTC_CODE">
+        <descriptions defaultDescription="FOTC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EAN_CODE">
+        <descriptions defaultDescription="EAN_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EHIBC_CODE">
+        <descriptions defaultDescription="EHIBC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="KNMP_ARTIKELNUMMER">
+        <descriptions defaultDescription="KNMP_ARTIKELNUMMER"/>
+      </viewAttribute>
+      <viewAttribute id="GENERIEKE_NAAM">
+        <descriptions defaultDescription="GENERIEKE_NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="TOEDIENINGSVORM">
+        <descriptions defaultDescription="TOEDIENINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_HOEVEELHEID">
+        <descriptions defaultDescription="STERKTE_HOEVEELHEID"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_EENHEID">
+        <descriptions defaultDescription="STERKTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSVORM">
+        <descriptions defaultDescription="VERPAKKINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_AANTAL">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_AANTAL"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_EENHEID">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="FARMINFORM_DEELNEMER">
+        <descriptions defaultDescription="FARMINFORM_DEELNEMER"/>
+      </viewAttribute>
+      <viewAttribute id="INKOOP_KANAAL">
+        <descriptions defaultDescription="INKOOP_KANAAL"/>
+      </viewAttribute>
+      <viewAttribute id="HERKOMSTLAND">
+        <descriptions defaultDescription="HERKOMSTLAND"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_WHO">
+        <descriptions defaultDescription="ATC_CODE_WHO"/>
+      </viewAttribute>
+      <viewAttribute id="AANTAL_DDD_PER_VERPAKKING">
+        <descriptions defaultDescription="AANTAL_DDD_PER_VERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="REGISTRATIE">
+        <descriptions defaultDescription="REGISTRATIE"/>
+      </viewAttribute>
+      <viewAttribute id="UR_NR">
+        <descriptions defaultDescription="UR_NR"/>
+      </viewAttribute>
+      <viewAttribute id="MARKTDEKKING">
+        <descriptions defaultDescription="MARKTDEKKING"/>
+      </viewAttribute>
+      <viewAttribute id="ROWNUMBER">
+        <descriptions defaultDescription="ROWNUMBER"/>
+      </viewAttribute>
+      <viewAttribute id="RESERVEVELD">
+        <descriptions defaultDescription="RESERVEVELD"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING_WHO">
+        <descriptions defaultDescription="Omschrijving WHO"/>
+      </viewAttribute>
+      <viewAttribute hidden="true" id="JOIN$CODE$ATC_CODE_WHO"/>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="WHO">
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING_WHO" source="OMSCHRIJVING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CODE$ATC_CODE_WHO" source="CODE"/>
+    </input>
+    <input node="FRAME_A">
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_CODE" source="FARMINFORM_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSIE_CODE" source="VERSIE_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAAM" source="NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBNAAM" source="SUBNAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING" source="OMSCHRIJVING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MINIKAART_CODE" source="MINIKAART_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INTRODUCTIEDATUM" source="INTRODUCTIEDATUM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_EPHMRA" source="ATC_CODE_EPHMRA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FOTC_CODE" source="FOTC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EAN_CODE" source="EAN_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EHIBC_CODE" source="EHIBC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNMP_ARTIKELNUMMER" source="KNMP_ARTIKELNUMMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GENERIEKE_NAAM" source="GENERIEKE_NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TOEDIENINGSVORM" source="TOEDIENINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_HOEVEELHEID" source="STERKTE_HOEVEELHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_EENHEID" source="STERKTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSVORM" source="VERPAKKINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_AANTAL" source="VERPAKKINGSGROOTTE_AANTAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_EENHEID" source="VERPAKKINGSGROOTTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HOEVEELHEID_PER_DEELVERPAKKING" source="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING" source="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_DEELNEMER" source="FARMINFORM_DEELNEMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INKOOP_KANAAL" source="INKOOP_KANAAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HERKOMSTLAND" source="HERKOMSTLAND"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_WHO" source="ATC_CODE_WHO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AANTAL_DDD_PER_VERPAKKING" source="AANTAL_DDD_PER_VERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REGISTRATIE" source="REGISTRATIE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="UR_NR" source="UR_NR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MARKTDEKKING" source="MARKTDEKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ROWNUMBER" source="ROWNUMBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RESERVEVELD" source="RESERVEVELD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="JOIN$CODE$ATC_CODE_WHO" source="ATC_CODE_WHO"/>
+    </input>
+    <joinAttribute name="JOIN$CODE$ATC_CODE_WHO"/>
+  </calculationView>
+  <calculationView xsi:type="Calculation:JoinView" id="Join_1_2" cardinality="CN_1" joinType="leftOuter" multiJoinNode="Join_1" multiJoinCentralTable="EPhRMA" multiJoinOrder="Outside In">
+    <viewAttributes>
+      <viewAttribute id="FARMINFORM_CODE">
+        <descriptions defaultDescription="FARMINFORM_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="VERSIE_CODE">
+        <descriptions defaultDescription="VERSIE_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="NAAM">
+        <descriptions defaultDescription="NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="SUBNAAM">
+        <descriptions defaultDescription="SUBNAAM"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING">
+        <descriptions defaultDescription="OMSCHRIJVING"/>
+      </viewAttribute>
+      <viewAttribute id="MINIKAART_CODE">
+        <descriptions defaultDescription="MINIKAART_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="INTRODUCTIEDATUM">
+        <descriptions defaultDescription="INTRODUCTIEDATUM"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_EPHMRA">
+        <descriptions defaultDescription="ATC_CODE_EPHMRA"/>
+      </viewAttribute>
+      <viewAttribute id="FOTC_CODE">
+        <descriptions defaultDescription="FOTC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EAN_CODE">
+        <descriptions defaultDescription="EAN_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="EHIBC_CODE">
+        <descriptions defaultDescription="EHIBC_CODE"/>
+      </viewAttribute>
+      <viewAttribute id="KNMP_ARTIKELNUMMER">
+        <descriptions defaultDescription="KNMP_ARTIKELNUMMER"/>
+      </viewAttribute>
+      <viewAttribute id="GENERIEKE_NAAM">
+        <descriptions defaultDescription="GENERIEKE_NAAM"/>
+      </viewAttribute>
+      <viewAttribute id="TOEDIENINGSVORM">
+        <descriptions defaultDescription="TOEDIENINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_HOEVEELHEID">
+        <descriptions defaultDescription="STERKTE_HOEVEELHEID"/>
+      </viewAttribute>
+      <viewAttribute id="STERKTE_EENHEID">
+        <descriptions defaultDescription="STERKTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSVORM">
+        <descriptions defaultDescription="VERPAKKINGSVORM"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_AANTAL">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_AANTAL"/>
+      </viewAttribute>
+      <viewAttribute id="VERPAKKINGSGROOTTE_EENHEID">
+        <descriptions defaultDescription="VERPAKKINGSGROOTTE_EENHEID"/>
+      </viewAttribute>
+      <viewAttribute id="HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING">
+        <descriptions defaultDescription="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="FARMINFORM_DEELNEMER">
+        <descriptions defaultDescription="FARMINFORM_DEELNEMER"/>
+      </viewAttribute>
+      <viewAttribute id="INKOOP_KANAAL">
+        <descriptions defaultDescription="INKOOP_KANAAL"/>
+      </viewAttribute>
+      <viewAttribute id="HERKOMSTLAND">
+        <descriptions defaultDescription="HERKOMSTLAND"/>
+      </viewAttribute>
+      <viewAttribute id="ATC_CODE_WHO">
+        <descriptions defaultDescription="ATC_CODE_WHO"/>
+      </viewAttribute>
+      <viewAttribute id="AANTAL_DDD_PER_VERPAKKING">
+        <descriptions defaultDescription="AANTAL_DDD_PER_VERPAKKING"/>
+      </viewAttribute>
+      <viewAttribute id="REGISTRATIE">
+        <descriptions defaultDescription="REGISTRATIE"/>
+      </viewAttribute>
+      <viewAttribute id="UR_NR">
+        <descriptions defaultDescription="UR_NR"/>
+      </viewAttribute>
+      <viewAttribute id="MARKTDEKKING">
+        <descriptions defaultDescription="MARKTDEKKING"/>
+      </viewAttribute>
+      <viewAttribute id="ROWNUMBER">
+        <descriptions defaultDescription="ROWNUMBER"/>
+      </viewAttribute>
+      <viewAttribute id="RESERVEVELD">
+        <descriptions defaultDescription="RESERVEVELD"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING_EPHRMA">
+        <descriptions defaultDescription="Omschrijving EPhMRA"/>
+      </viewAttribute>
+      <viewAttribute id="OMSCHRIJVING_WHO">
+        <descriptions defaultDescription="Omschrijving WHO"/>
+      </viewAttribute>
+    </viewAttributes>
+    <calculatedViewAttributes/>
+    <restrictedViewAttributes/>
+    <input node="Join_1_1">
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_CODE" source="FARMINFORM_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERSIE_CODE" source="VERSIE_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="NAAM" source="NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="SUBNAAM" source="SUBNAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING" source="OMSCHRIJVING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MINIKAART_CODE" source="MINIKAART_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INTRODUCTIEDATUM" source="INTRODUCTIEDATUM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_EPHMRA" source="ATC_CODE_EPHMRA"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FOTC_CODE" source="FOTC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EAN_CODE" source="EAN_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EHIBC_CODE" source="EHIBC_CODE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="KNMP_ARTIKELNUMMER" source="KNMP_ARTIKELNUMMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="GENERIEKE_NAAM" source="GENERIEKE_NAAM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="TOEDIENINGSVORM" source="TOEDIENINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_HOEVEELHEID" source="STERKTE_HOEVEELHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="STERKTE_EENHEID" source="STERKTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSVORM" source="VERPAKKINGSVORM"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_AANTAL" source="VERPAKKINGSGROOTTE_AANTAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="VERPAKKINGSGROOTTE_EENHEID" source="VERPAKKINGSGROOTTE_EENHEID"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HOEVEELHEID_PER_DEELVERPAKKING" source="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING" source="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="FARMINFORM_DEELNEMER" source="FARMINFORM_DEELNEMER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="INKOOP_KANAAL" source="INKOOP_KANAAL"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="HERKOMSTLAND" source="HERKOMSTLAND"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_WHO" source="ATC_CODE_WHO"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="AANTAL_DDD_PER_VERPAKKING" source="AANTAL_DDD_PER_VERPAKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="REGISTRATIE" source="REGISTRATIE"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="UR_NR" source="UR_NR"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="MARKTDEKKING" source="MARKTDEKKING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ROWNUMBER" source="ROWNUMBER"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="RESERVEVELD" source="RESERVEVELD"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING_WHO" source="OMSCHRIJVING_WHO"/>
+    </input>
+    <input node="EPhRMA">
+      <mapping xsi:type="Calculation:AttributeMapping" target="OMSCHRIJVING_EPHRMA" source="OMSCHRIJVING"/>
+      <mapping xsi:type="Calculation:AttributeMapping" target="ATC_CODE_EPHMRA" source="CODE"/>
+    </input>
+    <joinAttribute name="ATC_CODE_EPHMRA"/>
+  </calculationView>
+</calculationViews>
+<logicalModel id="Join_1_2">
+  <attributes>
+    <attribute id="FARMINFORM_CODE" order="1" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FARMINFORM_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="FARMINFORM_CODE"/>
+    </attribute>
+    <attribute id="VERSIE_CODE" order="2" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERSIE_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="VERSIE_CODE"/>
+    </attribute>
+    <attribute id="NAAM" order="3" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="NAAM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="NAAM"/>
+    </attribute>
+    <attribute id="SUBNAAM" order="4" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="SUBNAAM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="SUBNAAM"/>
+    </attribute>
+    <attribute id="OMSCHRIJVING" order="5" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="OMSCHRIJVING"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="OMSCHRIJVING"/>
+    </attribute>
+    <attribute id="MINIKAART_CODE" order="6" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MINIKAART_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="MINIKAART_CODE"/>
+    </attribute>
+    <attribute id="INTRODUCTIEDATUM" order="7" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INTRODUCTIEDATUM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="INTRODUCTIEDATUM"/>
+    </attribute>
+    <attribute id="ATC_CODE_EPHMRA" order="8" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATC_CODE_EPHMRA"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="ATC_CODE_EPHMRA"/>
+    </attribute>
+    <attribute id="OMSCHRIJVING_EPHRMA" order="9" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Omschrijving EPhMRA"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="OMSCHRIJVING_EPHRMA"/>
+    </attribute>
+    <attribute id="FOTC_CODE" order="10" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FOTC_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="FOTC_CODE"/>
+    </attribute>
+    <attribute id="EAN_CODE" order="11" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EAN_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="EAN_CODE"/>
+    </attribute>
+    <attribute id="EHIBC_CODE" order="12" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EHIBC_CODE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="EHIBC_CODE"/>
+    </attribute>
+    <attribute id="KNMP_ARTIKELNUMMER" order="13" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="KNMP_ARTIKELNUMMER"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="KNMP_ARTIKELNUMMER"/>
+    </attribute>
+    <attribute id="GENERIEKE_NAAM" order="14" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="GENERIEKE_NAAM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="GENERIEKE_NAAM"/>
+    </attribute>
+    <attribute id="TOEDIENINGSVORM" order="15" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="TOEDIENINGSVORM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="TOEDIENINGSVORM"/>
+    </attribute>
+    <attribute id="STERKTE_HOEVEELHEID" order="16" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STERKTE_HOEVEELHEID"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="STERKTE_HOEVEELHEID"/>
+    </attribute>
+    <attribute id="STERKTE_EENHEID" order="17" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="STERKTE_EENHEID"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="STERKTE_EENHEID"/>
+    </attribute>
+    <attribute id="VERPAKKINGSVORM" order="18" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERPAKKINGSVORM"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="VERPAKKINGSVORM"/>
+    </attribute>
+    <attribute id="VERPAKKINGSGROOTTE_AANTAL" order="19" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERPAKKINGSGROOTTE_AANTAL"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="VERPAKKINGSGROOTTE_AANTAL"/>
+    </attribute>
+    <attribute id="VERPAKKINGSGROOTTE_EENHEID" order="20" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="VERPAKKINGSGROOTTE_EENHEID"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="VERPAKKINGSGROOTTE_EENHEID"/>
+    </attribute>
+    <attribute id="HOEVEELHEID_PER_DEELVERPAKKING" order="21" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="HOEVEELHEID_PER_DEELVERPAKKING"/>
+    </attribute>
+    <attribute id="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING" order="22" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="EENHEID_HOEVEELHEID_PER_DEELVERPAKKING"/>
+    </attribute>
+    <attribute id="FARMINFORM_DEELNEMER" order="23" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="FARMINFORM_DEELNEMER"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="FARMINFORM_DEELNEMER"/>
+    </attribute>
+    <attribute id="INKOOP_KANAAL" order="24" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="INKOOP_KANAAL"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="INKOOP_KANAAL"/>
+    </attribute>
+    <attribute id="HERKOMSTLAND" order="25" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="HERKOMSTLAND"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="HERKOMSTLAND"/>
+    </attribute>
+    <attribute id="ATC_CODE_WHO" order="26" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="ATC_CODE_WHO"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="ATC_CODE_WHO"/>
+    </attribute>
+    <attribute id="OMSCHRIJVING_WHO" order="27" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="Omschrijving WHO"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="OMSCHRIJVING_WHO"/>
+    </attribute>
+    <attribute id="AANTAL_DDD_PER_VERPAKKING" order="28" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="AANTAL_DDD_PER_VERPAKKING"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="AANTAL_DDD_PER_VERPAKKING"/>
+    </attribute>
+    <attribute id="REGISTRATIE" order="29" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="REGISTRATIE"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="REGISTRATIE"/>
+    </attribute>
+    <attribute id="UR_NR" order="30" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="UR_NR"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="UR_NR"/>
+    </attribute>
+    <attribute id="MARKTDEKKING" order="31" displayAttribute="false" attributeHierarchyActive="false">
+      <descriptions defaultDescription="MARKTDEKKING"/>
+      <keyMapping columnObjectName="Join_1_2" columnName="MARKTDEKKING"/>
+    </attribute>
+  </attributes>
+  <calculatedAttributes/>
+  <baseMeasures/>
+  <calculatedMeasures/>
+  <restrictedMeasures/>
+</logicalModel>
+<layout>
+  <shapes>
+    <shape expanded="true" modelObjectName="Output" modelObjectNameSpace="MeasureGroup">
+      <upperLeftCorner x="375.2914798830913" y="112"/>
+    
+      <rectangleSize width="140"/>
+    </shape>
+    <shape expanded="true" modelObjectName="FRAME_A" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="92.00000000000001" y="411.9999976158142"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="WHO" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="411.9999976158142"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape expanded="true" modelObjectName="EPhRMA" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="512" y="411.9999976158142"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+  
+  
+    <shape expanded="true" modelObjectName="Join_1" modelObjectNameSpace="CalculationView">
+      <upperLeftCorner x="302" y="236.9999988079071"/>
+      <rectangleSize height="30" width="160"/>
+    </shape>
+    <shape modelObjectName="EPhRMA" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="620" y="30"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="WHO" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="592" y="153"/>
+      <rectangleSize width="250"/>
+    </shape>
+    <shape modelObjectName="FRAME_A" modelObjectNameSpace="Join_1" modelObjectType="JoinNodeInput" multiJoinViewNodeName="Join_1">
+      <upperLeftCorner x="920" y="30"/>
+      <rectangleSize width="352.7392578125"/>
+    </shape>
+  </shapes>
+</layout>
+</Calculation:scenario>
